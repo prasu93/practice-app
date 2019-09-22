@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bill@Maitre D</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="calc.js"></script>
+
+
+</head>
+
+
+
+<body>
+    <header style="text-align: center">
+        <h1>Maitre D</h1>
+    </header>
+    <main>
+        <br>
+
+
+
+
+        <div class="container" style="margin: 10px 5px 15px 550px">
+            Total: <input id="tot" type="text" size="34" placeholder="0.00">
+            <br><br>
+
+
+
+            <div id="tip">Tip: $ </div>
+            <div style="position: relative; left: 9%;top:-1.7em">Rate: <input id="rate" type="text" placeholder="0.0%">
+            </div>
+
+
+
+
+            <div id="tax">Tax: $</div>
+            <br>
+
+
+
+            <div id="total">Grand Total: $</div>
+            <br>
+        </div>
+
+        <div style="text-align: center"><button id="calc" onclick="generateBill()">Calculate</button></div>
+
+
+
+
+
+
+
+
+    </main>
+</body>
